@@ -24,11 +24,11 @@ This project aims to provide the middle ground between the two.
 
 The current setup features a webcam, a Raspberry Pi and an Arduino.
 
-![diagram](images/retroversion1.png)
+[<img src="images/retroversion1.png" style="max-width: 450px;">](images/retroversion1.png)
 
 Photorealistic rendering:
 
-![current setup](images/setup-2018-10-05.jpg)
+[<img src="images/setup-2018-10-05.jpg" style="max-width: 450px;">](images/setup-2018-10-05.jpg)
 
 ## Code
 
@@ -38,3 +38,21 @@ There are also two other repositories, where code is hosted that is already writ
 
 * [arduino-music-control](https://github.com/tssmits/arduino-music-control): Hackish-but-working. Features Python code that reads the Arduino, controls the webcam (via fswebcam command), and Spotify code.
 * [qrgen](https://github.com/tssmits/qrgen): Want to make you own QR-code-album-labels? Now you can! Printer-ready.
+
+## Usage of current version
+
+Currently, the project is capable of scanning a QR code, and uses a manually constructed mapping ([map.csv](https://github.com/tssmits/arduino-music-control/map.csv)) to get the Spotify URI. It then plays the music.
+
+Please see [arduino-music-control](https://github.com/tssmits/arduino-music-control) for detailed instructions.
+
+## Next steps
+
+Brainstorm!
+
+Some ideas:
+
+* Google Vision API
+* Automatically map search results to Spotify URI (via MusicBrainz? Discogs?)
+* Hardware hacking (use an old record player as a base?)
+* Soldering
+* Add volume control via potmeter
