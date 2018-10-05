@@ -24,11 +24,11 @@ This project aims to provide the middle ground between the two.
 
 The current setup features a webcam, a Raspberry Pi and an Arduino.
 
-[<img src="images/retroversion1.png" style="max-width: 450px;">](images/retroversion1.png)
+[<img src="images/retroversion1.png" width="280">](images/retroversion1.png)
 
 Photorealistic rendering:
 
-[<img src="images/setup-2018-10-05.jpg" style="max-width: 450px;">](images/setup-2018-10-05.jpg)
+[<img src="images/setup-2018-10-05.jpg" width="280">](images/setup-2018-10-05.jpg)
 
 ## Code
 
